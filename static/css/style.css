@@ -390,6 +390,19 @@ select {
 	padding: 25px;
 }
 
+.logo__left {
+	float: left;
+}
+
+.logo__right {
+	display: inline-block;
+}
+
+.logo__artwork {
+	padding-right: 1.5em;
+	height: 5.5em;
+}
+
 .logo__link {
 	display: inline-block;
 	text-transform: uppercase;
@@ -404,7 +417,6 @@ select {
 }
 
 .logo__tagline {
-	display: inline-block;
 	padding-top: 10px;
 	margin-top: 10px;
 	font-size: 14px;
@@ -1131,6 +1143,13 @@ textarea {
 
 	.logo {
 		text-align: center;
+	}
+
+	.logo__left{
+		float:none;
+	}
+	.logo__artwork {
+		padding:0 0 0.4em 0;
 	}
 
 	.logo__title {
