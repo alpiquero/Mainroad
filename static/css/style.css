@@ -388,6 +388,8 @@ select {
 
 .logo {
 	padding: 25px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
