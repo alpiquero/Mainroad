@@ -58,6 +58,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params]
   subtitle = "Just another site" # Subtitle of your site. Used in site header
+  logo = "/img/logo.svg" # Artwork displayed in site header
   description = " John Doe's Personal blog about everything" # Site description. Used in meta description
   opengraph = true # Enable OpenGraph if true
   twitter_cards = true # Enable Twitter Cards if true

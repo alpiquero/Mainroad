@@ -388,24 +388,21 @@ select {
 
 .logo {
 	padding: 25px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-.logo__left {
-	float: left;
-}
-
-.logo__right {
-	display: inline-block;
+.logo__text {
+	text-transform: uppercase;
 }
 
 .logo__artwork {
-	padding-right: 1.5em;
-	height: 5.5em;
+	padding-right: 1.5rem;
 }
 
-.logo__link {
-	display: inline-block;
-	text-transform: uppercase;
+.logo__artwork img {
+	max-height: 5rem;
 }
 
 .logo__title {
@@ -1143,13 +1140,12 @@ textarea {
 
 	.logo {
 		text-align: center;
+		display: block;
 	}
 
-	.logo__left{
-		float:none;
-	}
 	.logo__artwork {
-		padding:0 0 0.4em 0;
+		padding-right: 0;
+		padding-bottom: 1rem;
 	}
 
 	.logo__title {
