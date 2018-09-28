@@ -58,7 +58,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params]
   subtitle = "Just another site" # Subtitle of your site. Used in site header
-  logo = "/img/logo.svg" # Artwork displayed in site header
+  #logo = "img/logo.svg" # Logo displayed in site header
   description = "John Doe's Personal blog about everything" # Site description. Used in meta description
   #copyright = "John Doe" # copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
@@ -130,6 +130,9 @@ The sidebar consists of multiple widgets. Widgets can be enabled individually us
 
 Some widget respect optional configuration. Have a look at the `[Params.widgets]` and `[Params.widgets.social]` sections in the example configuration above.
 
+### Logo
+
+**Mainroad** can be customized with your own logo in the site header. You just have to provide a `logo=path/to/your/logo.svg` stanza in your configuration file (see above). Mainroad will resize the logo depending on the display size of the client. Thus, we expect you to provide the logo in a vector format (`.svg`).
 
 ## Contributing
 
