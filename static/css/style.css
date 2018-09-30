@@ -409,12 +409,9 @@ select {
 	text-transform: uppercase;
 }
 
-.logo__artwork {
-	padding-right: 1.5rem;
-}
-
-.logo__artwork img {
+.logo__img {
 	max-height: 5rem;
+	padding-right: 1.5rem;
 }
 
 .logo__title {
@@ -428,6 +425,7 @@ select {
 .logo__tagline {
 	padding-top: 10px;
 	margin-top: 10px;
+	padding-bottom: 4px;
 	font-size: 14px;
 	font-size: .875rem;
 	font-weight: 700;
@@ -1156,7 +1154,7 @@ textarea {
 		display: block;
 	}
 
-	.logo__artwork {
+	.logo__img {
 		padding-right: 0;
 		padding-bottom: 1rem;
 	}
@@ -1164,6 +1162,10 @@ textarea {
 	.logo__title {
 		font-size: 24px;
 		font-size: 1.5rem;
+	}
+
+	.logo__tagline {
+		padding-bottom: 0;
 	}
 
 	.sidebar {
