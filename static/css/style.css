@@ -403,6 +403,7 @@ select {
 }
 
 .logo__text {
+	display: inline-block;
 	text-transform: uppercase;
 }
 
