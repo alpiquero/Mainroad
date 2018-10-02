@@ -1147,6 +1147,19 @@ textarea {
 		margin: 0;
 	}
 
+	.sidebar {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	input[type=url] {
+		width: 88%;
+	}
+
 	.logo {
 		display: block;
 		text-align: center;
@@ -1164,19 +1177,6 @@ textarea {
 
 	.logo__tagline {
 		padding-bottom: 0;
-	}
-
-	.sidebar {
-		margin-top: 20px;
-	}
-}
-
-@media screen and (max-width: 620px) {
-	input[type=text],
-	input[type=email],
-	input[type=tel],
-	input[type=url] {
-		width: 88%;
 	}
 
 	.meta__item {
