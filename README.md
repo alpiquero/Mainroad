@@ -132,7 +132,7 @@ Some widget respect optional configuration. Have a look at the `[Params.widgets]
 
 ### Logo
 
-**Mainroad** can be customized with your own logo in the site header. You just have to provide a `logo=path/to/your/logo.svg` stanza in your configuration file (see above). Mainroad will resize the logo depending on the display size of the client. Thus, we expect you to provide the logo in a vector format (`.svg`).
+**Mainroad** can be customized with your own logo in the site header. You just have to provide a `logo=path/to/your/logo.svg` stanza in your configuration file (see above). Currently, **Mainroad** includes the image at `max-height: 80px`. This might change in the future, thus we expect you to provide the logo in a vector format (`.svg`).
 
 ## Contributing
 
