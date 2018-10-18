@@ -5,6 +5,9 @@
 - id: menu_label
   translation: Menü
 
+- id: sidemenu_title
+  translation: Menü
+
 # Post meta
 - id: meta_lastmod
   translation: Zuletzt geändert
@@ -22,7 +25,7 @@
 
 # Authorbox
 - id: authorbox_name
-  translation: About {{ .Count }}
+  translation: Über {{ .Count }}
 
 # Sidebar
 - id: sidebar_warning
